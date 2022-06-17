@@ -1,2 +1,2 @@
-# github-like-sign-in-form
-A github-like sign in form with HTML5 and CSS3
+# GITHUB-LIKE SIGN IN FORM
+## Using HTML5, CSS3 and JavaScript (For Validation to be added soon).

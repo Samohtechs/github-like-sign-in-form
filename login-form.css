@@ -1,0 +1,164 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} /* body */
+
+.container
+{
+    height: auto;
+    text-align: center;
+    margin-bottom: 5%;
+} /* container */
+
+.link
+    {
+        color: gray;
+        cursor: pointer;
+    }
+        .link:hover
+        {
+            color: green;
+        }
+
+header
+{
+    font-size: x-large;
+    display: inline-flex;
+    flex-flow: column;
+    margin: 2% 0 -3% 0;
+}
+    .avatar
+    {
+        border-radius: 50%;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        display: grid;
+        align-content: flex-end;
+    } /* avatar logo */
+        .avatar
+        {
+            margin: 0 auto;
+        } /* avatar logo */
+        img
+        {
+            border: 1px dashed white;
+        }
+    .sign-in-text
+    {
+        margin-top: 7%;
+    }
+
+loginForm
+{
+    width: 20%;
+    padding: 1%;
+    margin-bottom: -3%;
+    display: inline-table;
+    border: 3px solid gray;
+    border-top: 1px solid gray !important;
+    border-radius: 6px;
+}
+    form label
+    {
+        font-size: medium;
+        text-align: left;
+        margin: 1% 2%;
+    }
+    form label span
+    {
+        float: right;
+        clear: right;
+        font-size: small;
+        display: inline-flex;
+    }
+    .form-row
+    {
+        display: flex;
+        flex-flow: column;
+    }
+    .form-input
+    {
+        color: white;
+        margin: 2% 2%;
+        padding: 2% 5%;
+        border: 1px solid gray;
+        border-radius: 6px;
+        background-color: slategray;
+    }
+    .btn
+    {
+        opacity: 1;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+    }
+    .btn-signin
+    {
+        color: white;
+        background-color: rgb(88, 129, 5);
+    }
+        .btn-signin:hover
+        {
+            background-color: rgb(90, 135, 25);
+        }
+
+footer
+{
+    font-size: medium;
+    width: 20%;
+    padding: 1%;
+    margin-top: -6%;
+    display: inline-table;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.footer
+{
+    font-size: small;
+    word-spacing: 7px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5%;
+    border: none;
+}
+.footer span.link
+{
+    word-spacing: 0;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px)
+{
+    header span.sign-in-text
+    {
+        font-size: large;
+        margin: 7% auto;
+    }
+
+    loginForm
+    {
+        width: auto;
+        margin: 5% 6%;
+        padding: 3%;
+        display: block;
+    }
+
+    footer
+    {
+        width: auto;
+        margin: 5% 6%;
+        display: block;
+        padding: 3%;
+    }
+    .footer
+    {
+        word-spacing: 5px;
+    }
+    
+}
+
